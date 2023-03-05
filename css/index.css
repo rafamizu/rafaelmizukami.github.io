@@ -3,405 +3,398 @@
     src: url(../fonts/Techfont.ttf);
 }
 
-
 .curriculo {
-    background-image: url(../images/background1.jpg);
+    background-image: url(../images/background.png);
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    position: fixed;
-    overflow-y: auto;
+    width: 100%;  
+    
+    
     }
 
 
-#containercurriculo {
+.container {
     display: flex; 
     flex-direction: column;
-    background-image: url(../images/background.jpg);
-    height: auto;
-    width: 800px;
-    margin: auto;
-    position: center;
-    padding: 0;
-    }
-
-#perfil {
-    display: flex;
-    margin-left: 350px;
-    margin-top: 50px;
-    width: 500px;
-    height: 20px;
-    float: right;
-    position: absolute;
-    }    
-
-#perfil h1{
-    font-size: 40px;
-    align-self: center;
-    position: inherit;
-    letter-spacing: 1px;
-    font-family: Techfont;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    align-content: center;
     
 }
 
-#perfil p{
-    font-size: 15px;
+.perfil{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 400px;
+    justify-content: center;
     align-self: center;
-    margin-top: 140px;
-    letter-spacing: 1px;
-    line-height: 25px;
-    font-family: Techfont;
-    margin-left: 50px;
+    margin-top: 0px;
+    margin-left: 0px;
 }
 
-#perfil p img{
+.perfil h1{
+    font-size: 40px;
+    height: 50px;
+    width: 500px;
+    letter-spacing: 1px;
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: Techfont;
+    
+    
+}
+
+.perfil p{
+    font-size: 25px;
+    margin-top: 10px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    font-family: Techfont;
+    height: 150px;
+    width: 600px;
+    
+}
+
+.perfil p img{
     height: 20px;
     width: 20px;
-    margin-top: -6px;
+    margin-top: 10px;
 }
 
-#foto {
-    margin-top: 30px;
-    margin-left: 200px;
-    height: 100px;
-    width: 80px;
-  }
-
-#foto img{
-    height: 120px;
-    width: 100px;
-    border-style:outset;
-    border-color: rgb(75, 70, 70);
+.foto img{
+    height: 400px;
+    width: 300px;
     border-radius: 20px;
-    display: flex;
-    float: left;
-}
-
-
-
-#softskill {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 50px;
-    margin-left: 80px;
-    height: 100px;
-    width: 200px;
-}
-
-
-
-#softskill h1{
-    display: flex;
-    font-size: 30px;
-    position: absolute;
-    height: 30px;
-    width: 200px;
+}   
     
+.container1 {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    	
+  
 }
 
-#softskill p {
+.softskill {
     display: flex;
-    flex-wrap: wrap;
-    font-size: 15px;
-    height: 300px;
-    width: 400px;
-    margin-top: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+   
+    
+ 
+}
+
+.softskill p {
+    font-size: 25px;
     letter-spacing: 1px;
     line-height: 25px;
     font-family: Techfont;
-    
+    margin-left: 80px;
+    margin-top: 50px;
 
 }
 
-#sofskill img {
-    margin-left: 40px;
-    height: 100px;
-    width: 50px;
-    padding-top: 10px;
-    background-size: 100%;
-    position: absolute;
-    
-}
-
-
-#espaco {
-    display: flex;
-    width: 800px;
-    height: auto;
-    margin-left: 5px;
-    margin-right: 5px;
-    position: absolute;
-    padding-top: 80px;
-}
-
-#espaco img{
-    height: 200px;
-    width: 800px;
-}
-
-#espaco1 {
-    display: flex;
-    width: 800px;
-    height: auto;
-    margin-left: 5px;
-    margin-right: 5px;
-    position: absolute;
-    padding-top: 330px;
-}
-
-#espaco1 img{
-    height: 200px;
-    width: 800px;
-}
-
-#hardskill {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    margin-top: 130px;
-    margin-left: 120px;
-    height: 100px;
-    width: 200px;
-}
-
-#hardskill p {
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 15px;
+.imgsoftskill img {
+    margin-left: 100px;
+    margin-top: 10px;
     height: 300px;
-    width: 400px;
-    margin-top: 60px;
-    letter-spacing:1px;
+    width: 300px;
+ 
+}
+
+.container2 {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    
+    	
+  
+}
+.hardskill {
+    display: flex;
+    margin-top: 5px;
+    margin-left: 0px;
+    height: 400px;
+    width: auto;
+    align-self: center;
+}
+
+.hardskill p {
+    font-size: 25px;
+    letter-spacing: 3px;
     line-height: 25px;
-    margin-left: 350px;
+    font-family: Techfont;
+    margin-left: 80px;
+    margin-top: 20px;
+    
+    
+
+}
+
+.imghardskill img {
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 300px;
+    width: 300px;
+      
+    
+}
+
+
+.container3 {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    justify-content: space-between;
+    
+    	
+  
+}
+
+ .experiencia {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 0px;
+    height: 400px;
+    width: auto;
+    align-self: center;
+    }
+
+ .experiencia h1 {
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+    font-family: Techfont;
+    } 
+
+.experiencia p {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    text-align: left;
+    font-size: 25px;
+    font-family: Techfont;
+        
+} 
+
+.experiencia p3 {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Techfont;
+    text-align: left;
+   
+}
+
+
+.experiencia p1 {
+    height: 20px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
     font-family: Techfont;
     
-
 }
 
-#hardskill img {
-    margin-left: -50px;
-    height: 300px;
-    width: 400px;
-    padding-top: 40px;
-    background-size: 100%;
-    position: absolute;
-    
-    
-}
-
-#espaco2 {
+.experiencia2 {
     display: flex;
-    width: 800px;
-    height: auto;
-    margin-left: 5px;
-    margin-right: 5px;
-    position: absolute;
-    padding-top: 690px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    margin-left: 0px;
+    height: 400px;
+    width: auto;
+    }
+
+.experiencia p2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: Techfont;
+      
+} 
+
+.experiencia2 p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Techfont;
+    
+} 
+
+
+.experiencia2 p1 {
+    height: 20px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: Techfont;
+ }
+
+.experiencia2 p2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    font-family: Techfont;
 }
 
-#espaco2 img{
-    height: 200px;
-    width: 800px;
+.experiencia2 p3 {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Techfont;
+    text-align: left;
 }
 
-#redesociais h1 {
-    margin-top: -80px;
-    margin-left: 40px;
-    height: 200px;
+
+
+
+
+.formacao {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    margin-left: 0px;
+    height: 400px;
+    width: auto;
+    align-self: center;
+    align-items: center;
+}
+
+.formacao h1 {
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
+    font-family: Techfont;
+    
+} 
+
+.formacao p {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: Techfont;
+    
+} 
+
+.formacao p3 {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Techfont;
+    text-align: left;
+    
+}
+
+
+.formacao p1 {
+    height: 20px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: Techfont;
+   
+}
+
+.container4 {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+
+.contato{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: auto;
+    align-items: center;
+    
+    
+    
+}
+
+.contato h1 {
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: center;
     font-family: Techfont;
 }
 
 .linkedin{
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: -120px;
-    margin-left: 80px;
-    height: 100px;
-    width: 50px;
-    position: relative;
+    height: 150px;
+    width: 150px;
     
-}
-
-#experiencia h1 {
-    margin-top: 300px;
-    padding: 0;
-    margin-left: 0px;
-    text-align: center;
-    font-family: Techfont;
-} 
-
-#experiencia p {
-    margin-top: 40px;
-    padding: 0;
-    margin-left: 40px;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: Techfont;
-} 
-
-#experiencia p3 {
-    margin-top: 40px;
-    padding: 0;
-    margin-left: 40px;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Techfont;
-   
-}
-
-
-#experiencia p1 {
-    display: flex;
-    flex-wrap: wrap;
-    height: 60px;
-    width: 300px;
-    margin-top: 20px;
-    margin-left: 40px;
-    font-family: Techfont;
-}
-
-#experiencia p2 {
-    display: flex;
-    flex-wrap: wrap;
-    height: 60px;
-    width: 700px;
-    margin-top: -20px;
-    margin-left: 40px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    text-align: justify;
-    position: absolute;
-    font-family: Techfont;
-} 
-
-#experiencia2 p {
-    margin-top: 150px;
-    padding: 0;
-    margin-left: 40px;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: Techfont;
-} 
-
-
-#experiencia2 p1 {
-    display: flex;
-    flex-wrap: wrap;
-    height: 60px;
-    width: 200px;
-    margin-top: 20px;
-    margin-left: 40px;
-    font-family: Techfont;
-}
-
-#experiencia2 p2 {
-    display: flex;
-    flex-wrap: wrap;
-    height: 60px;
-    width: 700px;
-    margin-top: -20px;
-    margin-left: 40px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    text-align: justify;
-    position: absolute;
-    font-family: Techfont;
-}
-
-#experiencia2 p3 {
-    margin-top: 40px;
-    padding: 0;
-    margin-left: 40px;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Techfont;
-}
-
-.linkedin img {
-    margin-top: -40px;
-    margin-left: -30px;
+    
 }
 
 .github {
     display: flex;
-    height: 100px;
-    width: 180px;
-    position: absolute;
-    margin-left: 200px;
-    margin-top: -130px;
+    flex-direction: column;
+    height: 150px;
+    width: 150px;
+    
+    
+}
+.linkedin img {
+    margin-top: 0px;
+    margin-left: 0px;
+    height: 150px;
+    width: 150px;
 }
 
 .github img {
-    height: 100%;
-    width: 100%;
-}
-
-#espaco3 img{
-    margin-top: 70px;
-    height: 200px;
-    width: 800px;
-}
-
-#formacao h1 {
-    margin-top: -80px;
-    padding: 0;
+    margin-top: 0px;
     margin-left: 0px;
-    text-align: center;
-    font-family: Techfont;
-} 
-
-#formacao p {
-    margin-top: 20px;
-    padding: 0;
-    margin-left: 40px;
-    font-weight: bold;
-    font-size: 25px;
-    font-family: Techfont;
-} 
-
-#formacao p3 {
-    margin-top: 40px;
-    padding: 0;
-    margin-left: 40px;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: Techfont;
+    height: 150px;
+    width: 150px;
 }
 
 
-#formacao p1 {
-    display: flex;
-    flex-wrap: wrap;
-    height: 60px;
-    width: 400px;
-    margin-top: 20px;
-    margin-left: 40px;
-    font-family: Techfont;
-}
 
-#formacao p2 {
-    display: flex;
-    flex-wrap: wrap;
-    height: 60px;
-    width: 700px;
-    margin-top: -20px;
-    margin-left: 40px;
-    line-height: 25px;
-    letter-spacing: 1px;
-    text-align: justify;
-    position: absolute;
-    font-family: Techfont;
-} 
 
-#espaco4 img{
-    margin-top: -60px;
-    height: 200px;
-    width: 800px;
-}
+
+
+
+
+
+
+
 
