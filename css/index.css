@@ -20,7 +20,7 @@
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 0px;
     align-content: center;
     
@@ -78,7 +78,7 @@
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 0px;
     	
   
@@ -159,6 +159,7 @@
     height: 100%;
     width: 100%;
     justify-content: space-between;
+    margin-top: 20px;
     
     	
   
@@ -335,6 +336,7 @@
     flex-wrap: wrap;
     height: 100%;
     width: 100%;
+    margin-top: 20px;
 }
 
 
