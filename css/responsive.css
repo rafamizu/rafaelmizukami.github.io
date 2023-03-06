@@ -1,0 +1,34 @@
+    @media screen and (max-width:700px){
+        header .container{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+    @media screen and (max-width:700px){
+        header .container1{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+    @media screen and (max-width:700px){
+        header .container2{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+
+    @media screen and (max-width:700px){
+        header .container3{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+    @media screen and (max-width:700px){
+        header .container4{
+        display: flex;
+        flex-direction: column;
+        }
+    }
+
+
+
